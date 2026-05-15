@@ -1,0 +1,26 @@
+<view class="container result-page">
+  <view class="result-card" wx:if="{{level}}">
+    <view class="level-badge">{{level.badge}}</view>
+    <view class="level-title">{{level.title}}</view>
+    <view class="level-subtitle">{{level.subtitle}}</view>
+
+    <view class="percentage-wrap">
+      <view class="percentage-num">{{level.percentage}}</view>
+      <view class="percentage-label">中国人含量</view>
+    </view>
+
+    <view class="main-text">{{level.main_text}}</view>
+
+    <view class="roast">{{level.roast}}</view>
+
+    <view class="tip">{{level.chinamaxxing_tip}}</view>
+  </view>
+
+  <view class="actions">
+    <view class="btn-red" bindtap="goToPoster">生成分享海报</view>
+    <button class="btn-ghost" open-type="share">分享给好友</button>
+    <view class="btn-ghost" bindtap="retake">再测一次</view>
+  </view>
+
+  <view class="disclaimer">本测试纯属娱乐,与国籍、民族、身份认同无关。</view>
+</view>

@@ -1,0 +1,59 @@
+/* 全局样式 - 中国人含量检测器 */
+page {
+  background-color: #FFF8F0;
+  color: #1A1A1A;
+  font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 28rpx;
+  line-height: 1.6;
+}
+
+/* 中国红配色系统 */
+.china-red { color: #CC0000; }
+.china-gold { color: #FFD700; }
+.china-dark { color: #8B0000; }
+
+.bg-red { background-color: #CC0000; }
+.bg-gold { background-color: #FFD700; }
+.bg-cream { background-color: #FFF8F0; }
+
+.container {
+  padding: 40rpx 32rpx;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.btn-red {
+  background: linear-gradient(135deg, #CC0000, #8B0000);
+  color: #FFD700;
+  border-radius: 16rpx;
+  padding: 28rpx 0;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 700;
+  letter-spacing: 4rpx;
+  box-shadow: 0 8rpx 24rpx rgba(204, 0, 0, 0.3);
+}
+
+.btn-red:active {
+  transform: scale(0.97);
+  opacity: 0.9;
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 2rpx solid #CC0000;
+  color: #CC0000;
+  border-radius: 16rpx;
+  padding: 24rpx 0;
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+
+.disclaimer {
+  font-size: 20rpx;
+  color: #999;
+  text-align: center;
+  margin-top: 40rpx;
+  line-height: 1.8;
+}

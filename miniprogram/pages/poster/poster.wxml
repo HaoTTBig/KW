@@ -1,0 +1,17 @@
+<view class="container poster-page">
+  <view class="canvas-wrap">
+    <canvas
+      type="2d"
+      id="posterCanvas"
+      class="poster-canvas"
+      style="width: 750rpx; height: 1200rpx;"
+    ></canvas>
+  </view>
+
+  <view class="actions">
+    <view class="btn-red" bindtap="onSave" loading="{{saving}}">保存到相册</view>
+    <button class="btn-ghost" open-type="share">分享给好友</button>
+  </view>
+
+  <view class="disclaimer">长按海报可保存 · 发朋友圈让好友也测测</view>
+</view>

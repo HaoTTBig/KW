@@ -1,0 +1,15 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "culture-dna-test",
+  "description": "趣味习惯测试 - 测测你的生活方式偏好",
+  "appid": "REPLACE_WITH_YOUR_APPID",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.5.0"
+}

@@ -1,0 +1,31 @@
+<view class="container quiz-page">
+  <!-- 进度条 -->
+  <view class="progress-bar">
+    <view class="progress-fill" style="width: {{progressPercent}}%;"></view>
+  </view>
+  <view class="progress-text">{{currentIndex + 1}} / {{total}}</view>
+
+  <!-- 问题 -->
+  <view class="question-card" wx:if="{{currentQ}}">
+    <view class="q-text">{{currentQ.text}}</view>
+
+    <view class="options">
+      <view
+        class="option-item {{selectedIdx === idx ? 'selected' : ''}}"
+        wx:for="{{currentQ.options}}"
+        wx:key="label"
+        wx:for-index="idx"
+        bindtap="selectOption"
+        data-idx="{{idx}}"
+      >
+        <view class="option-label">{{item.label}}</view>
+        <view class="option-text">{{item.text}}</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 下一题按钮 -->
+  <view class="btn-red next-btn {{selectedIdx === -1 ? 'disabled' : ''}}" bindtap="nextQuestion">
+    {{isLast ? '查看结果' : '下一题'}}
+  </view>
+</view>

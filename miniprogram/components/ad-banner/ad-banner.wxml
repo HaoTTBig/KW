@@ -1,0 +1,6 @@
+<!-- 流量主广告位 -->
+<!-- 开通流量主后,取消下面的注释,替换 adunit-id 为你的广告位 ID -->
+<!-- <ad unit-id="adunit-xxxxxxxxxx" ad-type="banner" ad-theme="white"></ad> -->
+<view class="ad-placeholder" wx:if="{{showPlaceholder}}">
+  <!-- 广告位占位,开通后替换 -->
+</view>

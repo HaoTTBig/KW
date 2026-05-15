@@ -1,0 +1,7 @@
+.privacy-page { padding-top: 20rpx; }
+.card { background: #FFF; border-radius: 20rpx; padding: 40rpx; }
+.title { font-size: 36rpx; font-weight: 700; color: #1A1A1A; margin-bottom: 32rpx; }
+.section { margin-bottom: 28rpx; }
+.section text { display: block; font-size: 26rpx; color: #555; line-height: 1.8; margin-top: 8rpx; }
+.bold { font-weight: 600; color: #1A1A1A; font-size: 28rpx; }
+.update-time { font-size: 22rpx; color: #999; margin-top: 32rpx; text-align: right; }

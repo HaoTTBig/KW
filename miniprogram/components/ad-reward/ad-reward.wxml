@@ -1,0 +1,5 @@
+<!-- 激励视频广告位 -->
+<!-- 开通后在 JS 里调用 wx.createRewardedVideoAd -->
+<view class="reward-trigger" wx:if="{{show}}" bindtap="onTapReward">
+  <text>🎬 看视频解锁更多结果</text>
+</view>

@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "max_score": 60,
+  "disclaimer": "本测试纯属娱乐,与国籍、民族、身份认同无关。",
+  "levels": [
+    {
+      "id": "foreigner",
+      "range": [0, 15],
+      "title": "签证待办",
+      "subtitle": "Chinese Level: Loading...",
+      "percentage": "12%",
+      "badge": "🛂",
+      "main_text": "你连保温杯都没有。\n你的中国人含量像你的余额——\n约等于零。\n建议:先买个保温杯,泡点枸杞,\n然后把冰美式倒掉。",
+      "roast": "连你妈都觉得你不像中国人。",
+      "chinamaxxing_tip": "你需要的不是 Chinamaxxing,是 China 入门。",
+      "share_text": "我的中国人含量只有 12%... 连保温杯都没有的人",
+      "color_scheme": "gray"
+    },
+    {
+      "id": "tourist",
+      "range": [16, 25],
+      "title": "观光客",
+      "subtitle": "Chinese Level: 体验装",
+      "percentage": "38%",
+      "badge": "📸",
+      "main_text": "你正处于 Chinamaxxing 的入门阶段。\n会喝热水了,但你的拖鞋还没买。\n你聚餐的时候还在 AA,\n你妈转的链接你还没点开。\n有进步空间。",
+      "roast": "你在中国待了三天,就这?",
+      "chinamaxxing_tip": "建议:关注你妈的朋友圈,从\"收到\"开始回复。",
+      "share_text": "我的中国人含量 38%,刚学会喝热水的观光客水平",
+      "color_scheme": "blue"
+    },
+    {
+      "id": "resident",
+      "range": [26, 35],
+      "title": "编内人员",
+      "subtitle": "Chinese Level: 有点东西",
+      "percentage": "58%",
+      "badge": "🪪",
+      "main_text": "你已掌握核心技能:\n会假装上厕所逃买单、\n会说\"哪有哪有\"、\n会在群里抢红包。\n但你的广场舞还没学,\n你和你妈之间还差 10 条语音消息。",
+      "roast": "你在第五层,你妈在大气层。",
+      "chinamaxxing_tip": "建议:学会不拆快递攒着、水果先砍价再买。",
+      "share_text": "我的中国人含量 58%,会抢红包但还不会砍价",
+      "color_scheme": "green"
+    },
+    {
+      "id": "native",
+      "range": [36, 45],
+      "title": "老中人",
+      "subtitle": "Chinese Level: 炉火纯青",
+      "percentage": "79%",
+      "badge": "🏮",
+      "main_text": "泡脚、保温杯、语音消息全听完。\n聚餐抢买单抢得真诚,\n别人夸你瘦你谦虚得体,\n你妈的养生链接你全部已读。\n你已经是一个合格的中国人了。\n但你妈觉得你还差一个对象。",
+      "roast": "你什么都好,就是没结婚。",
+      "chinamaxxing_tip": "你不需要 Chinamaxxing,你本来就是。",
+      "share_text": "我的中国人含量 79%!老中人实锤,就差结婚了",
+      "color_scheme": "red"
+    },
+    {
+      "id": "ultimate",
+      "range": [46, 60],
+      "title": "非遗传承人",
+      "subtitle": "Chinese Level: 已超越99%人类",
+      "percentage": "97%",
+      "badge": "🐉",
+      "main_text": "你不是中国人,你是中国人的标准。\n你的热水能治百病,\n你的砍价让摊主怀疑人生,\n你春节能扛住所有灵魂拷问,\n你聚餐永远第一个抢买单——\n但从来没真正付过钱。\n\n你已经超越了 99% 的 Chinamaxxer。\n全球都应该向你学习。",
+      "roast": "NASA 应该研究你的保温杯。",
+      "chinamaxxing_tip": "你不是在 Chinamaxxing,Chinamaxxing 在模仿你。",
+      "share_text": "我的中国人含量 97%!!!非遗传承人!全球Chinamaxxer都在模仿我!",
+      "color_scheme": "gold"
+    }
+  ],
+  "poster_style": {
+    "description": "风格:新闻联播体 × 梗。上方是严肃的红底白字标题,中间是荒诞的结果内容,底部小字免责声明 + 小程序码。整体像一张\"官方认证文件\"但内容全是胡说八道。",
+    "background": "正红色渐变(#CC0000 → #8B0000)",
+    "title_font": "黑体/思源黑体 加粗",
+    "body_font": "宋体/思源宋体",
+    "accent": "金色(#FFD700)",
+    "layout": "竖版,模仿政府公文/证书/新闻联播下方字幕条"
+  }
+}
