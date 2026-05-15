@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>你的 Chinese Level 有多高?</title>
+<meta name="description" content="全球都在 Chinamaxxing,测测你的文化DNA含量">
+<link rel="stylesheet" href="style.css">
+<!-- 微信分享 meta(微信内打开时会读取) -->
+<meta property="og:title" content="你的 Chinese Level 有多高?">
+<meta property="og:description" content="全球都在 Chinamaxxing,15 道灵魂拷问测出你的真实含量">
+<meta property="og:image" content="share-cover.png">
+<!-- 微信 JS-SDK -->
+<script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+</head>
+<body>
+<!-- ============ 首页 ============ -->
+<div id="page-home" class="page active">
+  <div class="home-badge">🇨🇳</div>
+  <h1 class="home-title">Chinese Level 检测</h1>
+  <p class="home-subtitle">CULTURAL DNA DETECTOR</p>
+  <p class="home-desc">
+    全球都在 Chinamaxxing,<br>
+    但你到底有多 Chinese?<br>
+    15 道灵魂拷问,测出你的真实含量。
+  </p>
+  <div class="home-stats">
+    <div class="stat"><span class="stat-num" id="testCount">12,847</span><span class="stat-label">人已检测</span></div>
+    <div class="stat"><span class="stat-num">97%</span><span class="stat-label">最高含量</span></div>
+  </div>
+  <button class="btn-red" onclick="startQuiz()">开 始 检 测</button>
+  <p class="disclaimer">本测试纯属娱乐,与国籍、民族、身份认同无关。<br>灵感来自全球 #Chinamaxxing 热潮。</p>
+</div>
+
+<!-- ============ 答题页 ============ -->
+<div id="page-quiz" class="page">
+  <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  <p class="progress-text" id="progressText">1 / 15</p>
+  <div class="question-card">
+    <h2 class="q-text" id="qText"></h2>
+    <div class="options" id="optionsWrap"></div>
+  </div>
+  <button class="btn-red btn-next disabled" id="btnNext" onclick="nextQuestion()">下一题</button>
+</div>
+
+<!-- ============ 结果页 ============ -->
+<div id="page-result" class="page">
+  <div class="result-card" id="resultCard">
+    <div class="level-badge" id="resBadge"></div>
+    <div class="level-title" id="resTitle"></div>
+    <div class="level-subtitle" id="resSubtitle"></div>
+    <div class="percentage-wrap">
+      <div class="percentage-num" id="resPercent"></div>
+      <div class="percentage-label">Chinese Level</div>
+    </div>
+    <div class="main-text" id="resMainText"></div>
+    <div class="roast" id="resRoast"></div>
+    <div class="tip" id="resTip"></div>
+  </div>
+  <div class="actions">
+    <button class="btn-red" onclick="generatePoster()">生成分享海报</button>
+    <button class="btn-ghost" onclick="retake()">再测一次</button>
+    <button class="btn-ghost" onclick="followCTA()">关注公众号 · 解锁更多测试</button>
+  </div>
+  <p class="disclaimer">本测试纯属娱乐,与国籍、民族、身份认同无关。</p>
+</div>
+
+<!-- ============ 海报页 ============ -->
+<div id="page-poster" class="page">
+  <canvas id="posterCanvas" width="750" height="1200"></canvas>
+  <p class="poster-hint">长按图片保存 · 发朋友圈让好友也测测</p>
+  <div class="actions">
+    <button class="btn-red" onclick="savePoster()">保存海报图片</button>
+    <button class="btn-ghost" onclick="showResult()">返回结果</button>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script src="wx-share.js"></script>
+</body>
+</html>
