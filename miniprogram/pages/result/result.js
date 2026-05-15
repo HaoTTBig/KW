@@ -1,4 +1,4 @@
-const results = require('../../data/results.json');
+const results = require('../../data/results.js');
 
 Page({
   data: {

@@ -3,11 +3,11 @@
     <view class="badge">🧬</view>
   </view>
 
-  <view class="title">文化DNA检测</view>
+  <view class="title">国人习惯检测</view>
   <view class="subtitle">CULTURAL HABITS DETECTOR</view>
 
   <view class="desc">
-    你的日常习惯里藏着什么文化基因?
+    你的日常习惯里藏着什么基因?
     15 道趣味问答,测出你的生活方式偏好。
   </view>
 

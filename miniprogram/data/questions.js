@@ -1,0 +1,399 @@
+module.exports = {
+  "version": "1.0",
+  "title": "中国人含量检测器",
+  "subtitle": "测测你的 Chinese Level",
+  "total_questions": 15,
+  "scoring": "每题 A=4分 B=3分 C=2分 D=1分(部分题目反向计分,见 reverse 字段)",
+  "questions": [
+    {
+      "id": 1,
+      "text": "早上起床第一件事?",
+      "options": [
+        {
+          "label": "A",
+          "text": "喝一杯温开水",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "看手机消息",
+          "score": 3
+        },
+        {
+          "label": "C",
+          "text": "来杯冰美式",
+          "score": 1
+        },
+        {
+          "label": "D",
+          "text": "继续睡",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "你的保温杯里装着?",
+      "options": [
+        {
+          "label": "A",
+          "text": "枸杞红枣水",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "白开水(凉了也喝)",
+          "score": 3
+        },
+        {
+          "label": "C",
+          "text": "咖啡",
+          "score": 1
+        },
+        {
+          "label": "D",
+          "text": "我没有保温杯",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "聚餐买单时你的第一反应?",
+      "options": [
+        {
+          "label": "A",
+          "text": "先抢着扫码,被拦下来再说",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "假装上厕所等别人付",
+          "score": 3
+        },
+        {
+          "label": "C",
+          "text": "AA 制,精确到分",
+          "score": 1
+        },
+        {
+          "label": "D",
+          "text": "看谁先动我就动",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "收到60秒微信语音消息,你?",
+      "options": [
+        {
+          "label": "A",
+          "text": "老老实实从头听完",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "转文字",
+          "score": 3
+        },
+        {
+          "label": "C",
+          "text": "回一条\"在忙,打字说\"",
+          "score": 2
+        },
+        {
+          "label": "D",
+          "text": "已读不回",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "你进别人家门第一个动作?",
+      "options": [
+        {
+          "label": "A",
+          "text": "换拖鞋(没有也要脱鞋)",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "先喊一声\"到了\"",
+          "score": 3
+        },
+        {
+          "label": "C",
+          "text": "直接走进去",
+          "score": 1
+        },
+        {
+          "label": "D",
+          "text": "先问WiFi密码",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "快递到了,你多久拆?",
+      "options": [
+        {
+          "label": "A",
+          "text": "当场拆,拆完盒子还要叠好",
+          "score": 3
+        },
+        {
+          "label": "B",
+          "text": "攒3天一起拆(仪式感)",
+          "score": 4
+        },
+        {
+          "label": "C",
+          "text": "直接拆,盒子扔了",
+          "score": 2
+        },
+        {
+          "label": "D",
+          "text": "还在快递柜里放着",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "你妈最近转发的链接是?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"这种水果千万不能空腹吃\"",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "\"公安部紧急通知\"",
+          "score": 3
+        },
+        {
+          "label": "C",
+          "text": "广场舞教学",
+          "score": 3
+        },
+        {
+          "label": "D",
+          "text": "我妈不用微信",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "菜上齐了,你的反应?",
+      "options": [
+        {
+          "label": "A",
+          "text": "先拍照,全方位360度",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "先转盘把最好的菜转到我面前",
+          "score": 3
+        },
+        {
+          "label": "C",
+          "text": "等主人动筷子我再动",
+          "score": 3
+        },
+        {
+          "label": "D",
+          "text": "直接吃",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "别人夸你\"瘦了\",你?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"哪有哪有,胖死了\"(但心里开花)",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "\"谢谢!我最近确实在控制\"",
+          "score": 2
+        },
+        {
+          "label": "C",
+          "text": "\"你也是!\"(无论对方胖没胖)",
+          "score": 3
+        },
+        {
+          "label": "D",
+          "text": "照单全收不回应",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "路过水果摊,你?",
+      "options": [
+        {
+          "label": "A",
+          "text": "先问价,再说\"太贵了\",走两步回来买",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "不问价直接买",
+          "score": 1
+        },
+        {
+          "label": "C",
+          "text": "扫码下单等配送",
+          "score": 2
+        },
+        {
+          "label": "D",
+          "text": "偷偷尝一个再决定",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "有人问你月薪多少?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"还行吧,够吃饭\"(实际可能月入3万也可能3千)",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "反问\"你呢\"",
+          "score": 3
+        },
+        {
+          "label": "C",
+          "text": "如实告知",
+          "score": 1
+        },
+        {
+          "label": "D",
+          "text": "转移话题",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "春节回家你最怕什么?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"有对象了吗\"",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "\"工资多少\"",
+          "score": 3
+        },
+        {
+          "label": "C",
+          "text": "\"什么时候要孩子\"",
+          "score": 3
+        },
+        {
+          "label": "D",
+          "text": "我不怕",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "你出门前你妈会说?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"多喝热水\"",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "\"早点回来\"",
+          "score": 3
+        },
+        {
+          "label": "C",
+          "text": "\"钱够不够\"",
+          "score": 3
+        },
+        {
+          "label": "D",
+          "text": "我妈不管我",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "晚上11点,你在?",
+      "options": [
+        {
+          "label": "A",
+          "text": "泡脚 + 刷手机",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "加班",
+          "score": 3
+        },
+        {
+          "label": "C",
+          "text": "夜店/酒吧",
+          "score": 1
+        },
+        {
+          "label": "D",
+          "text": "已经睡了",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "最后一题:你觉得\"多喝热水\"是?",
+      "options": [
+        {
+          "label": "A",
+          "text": "万能良药 + 终极关心",
+          "score": 4
+        },
+        {
+          "label": "B",
+          "text": "敷衍的关心",
+          "score": 2
+        },
+        {
+          "label": "C",
+          "text": "中国文化精髓",
+          "score": 4
+        },
+        {
+          "label": "D",
+          "text": "没什么特别的",
+          "score": 1
+        }
+      ]
+    }
+  ]
+};
